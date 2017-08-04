@@ -5,7 +5,7 @@
 #### 步骤
 
 1. fork该项目到你的仓库。
-2. 下载fork后的项目。
+2. 克隆fork后的项目。
 3. copy一份tamplete.json文件，并把文件名改成你的名字，比如：xugaoyang.json（千万别直接改我的tamplete.json）
 4. 修改xugaoyang.json里的内容。分别是头像链接，姓名，心里话。
 5. 提交修改。
