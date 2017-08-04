@@ -17,3 +17,6 @@
 
 1. 为了保证我在制作html页面的美观度，图片尽量用微信头像。如果你担心隐私问题，也请用和微信头像同样长宽比的图片。
 2. 也可以用你微博头像的链接。
+
+
+如果不会操作pull request。请[点这里](https://github.com/xugy0926/getting-started-with-javascript/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1pull-request)
