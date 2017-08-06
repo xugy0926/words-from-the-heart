@@ -8,7 +8,7 @@
 ##### 2. 克隆fork后的项目。
 ##### 3. 在words-from-the-heart文件夹，添加一个json格式文件，文件命名为你的名字。
 
-比如:xugaoyang.json。其实，你可以拷贝template.json后再修改你拷贝的文件名即可。（千万别直接改我的template.json，也别修改其他任何文件，否则我会拒绝你的pull request请求的）
+你可以拷贝template.json后再修改你拷贝的文件名即可(ex：xugaoyang.json），千万别直接改我的template.json，也别修改其他任何文件，否则我会拒绝你的pull request请求的。
 
 ##### 4. 修改第3步添加的新json文件里的内容。
 
