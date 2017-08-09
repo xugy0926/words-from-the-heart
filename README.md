@@ -14,6 +14,8 @@
 
 文件里有三个内容需要填写：头像链接，姓名，心里话。只修改双引号里面的内容即可。
 
+JSON格式的使用方式请参考 [第一次使用JSON](https://github.com/xugy0926/getting-started-with-javascript/blob/master/topics/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8JSON.md)
+
 为了保证我在制作html页面的美观度，图片尽量用微信头像。如果你担心隐私问题，也请用和微信头像同样长宽比的图片。
 
 头像链接如何获取？你需要把头像上传到网上，我介绍一款图床给你，把图片上传到图床上，就能拿到一个url。https://toolinbox.net/iPic/
