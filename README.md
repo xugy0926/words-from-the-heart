@@ -25,6 +25,11 @@ JSON格式的使用方式请参考 [第一次使用JSON](https://github.com/xugy
 #### 5. 提交修改。
 #### 6. 发起pull request。
 
-最后，我会merge你的提交到我的项目。
 
 如果不会操作pull request。请[点这里](https://github.com/xugy0926/getting-started-with-javascript/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1pull-request)
+
+
+#### 最后
+
+我会merge你的提交到我的项目。
+
