@@ -1,1 +1,3 @@
 ./script/node_modules
+# Ignore Mac OS desktop services store
+.DS_Store
