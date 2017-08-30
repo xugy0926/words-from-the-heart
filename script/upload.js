@@ -5,10 +5,10 @@ const wordsFilePath = './output/words.json';
 
 let json = jsonfile.readFileSync(wordsFilePath);
 
-let host = process.env.host;
+let host = process.env.host || 'localhost:3001';
 
 request
-  .post(`${host}/api/words/update`)
+  .put(`${host}/api/v1/learnJS/course/1/words`)
   .send({words: json}) // sends a JSON post body
   .set('X-API-Key', 'foobar')
   .set('Accept', 'application/json')
