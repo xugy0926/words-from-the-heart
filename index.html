@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="./public/css/style.css"">
     <script src="https://unpkg.com/vue"></script>
     <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./public/js/index.js"></script>
 </head>
 <body>
 <div id="app">
   <div class="main-header">
     <div class="container">
-      <h1>JavaScript编程入门</h1>
+      <h1>{{message}}</h1>
     </div>
   </div>
   <div class="class="container">
@@ -36,22 +37,8 @@
   var app = new Vue({
     el: '#app',
     data: {
-      message: 'Hello Vue!'
-    },
-    methods: {
-      fetchCatalog: function() {
-        $.get('http://github.com/xugy0926/words-from-the-heart/blob/master/script/index.js', function(err, result) {
-          if (err) {
-            console.log(err);
-            return;
-          }
-
-          console.log(result);
-        })
-      }
+      message: testJSON.title
     }
-  })
-
-  app.fetchCatalog();
+  });
 </script>
 </html>
