@@ -5,7 +5,7 @@ const wordsFilePath = './output/words.json';
 
 let json = jsonfile.readFileSync(wordsFilePath);
 
-let host = process.env.host || 'localhost:3001';
+let host = process.env.host || 'https://js.xinshengdaxue.com';
 
 request
   .put(`${host}/api/v1/learnJS/course/1/words`)
