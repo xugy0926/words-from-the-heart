@@ -1,3 +1,7 @@
+## 项目主站
+
+ https://xugy0926.github.io/words-from-the-heart/.
+
 ## 学习JavaScript的心里话
 
 该项目目的是收集大家学习JavaScript的心里话。这些收集的数据将会被做成html页面供大家留念。
