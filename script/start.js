@@ -15,7 +15,7 @@ async function buildJsonFile(jsonFiles) {
 
   for (var i = 0; i < jsonFiles.length; i++) {
     try {
-      let json = jsonfile.readFileSync('../' + jsonFiles[i]);
+      let json = jsonfile.readFileSync('../words/' + jsonFiles[i]);
       goodList.push(json);
     } catch (err) {
       errorList.push(jsonFiles[i]);
@@ -41,7 +41,7 @@ async function buildJsonFile(jsonFiles) {
 
 async function start() {
   try {
-    let files = await run(scan, path.join(__dirname, '../'));
+    let files = await run(scan, path.join(__dirname, '../words/'));
 
     let jsonFiles = files.map(item => {
       if (item.includes('.json')) {
