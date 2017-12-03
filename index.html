@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>JavaScript编程入门</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link href="https://cdn.bootcss.com/semantic-ui/2.2.13/semantic.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="./public/css/style.css"">
+  <script src="https://cdn.bootcss.com/vue/2.4.4/vue.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/semantic-ui/2.2.13/semantic.min.js"></script>
+  <script src="./public/js/index.js"></script>
+</head>
+<body>
+<div id="app">
+  <div class="main-header">
+    <div class="ui text container">
+      <h1>{{message}}</h1>
+    </div>
+  </div>
+  <div class="ui text container">
+    <div class="ui feed">
+      <div class="event" v-for="item in words">
+        <div class="label">
+          <img v-bind:src="item.avatar">
+        </div>
+        <div class="content">
+          <div class="summary">
+            <a class="user">
+              {{ item.name }}
+            </a>
+          </div>
+          <div class="extra text">
+            {{ item.words }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<script>
+  var app = new Vue({
+    el: '#app',
+    data: {
+      message: '你为什么学编程？',
+      words: words
+    }
+  });
+</script>
+</html>

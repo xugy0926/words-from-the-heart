@@ -1,6 +1,5 @@
 // 引入fs模块
 const fs = require('fs');
-const fse = require('fs-extra');
 
 // 异步方式读取words-from-the-heart的所有文件
 fs.readdir('../', function(err, files) {
@@ -24,15 +23,4 @@ fs.readdir('../', function(err, files) {
   console.log('----filter begin----');
   console.log(jsonFiles);
   console.log('----filter end----');
-
-  // 检查错误的json文件
-  for (var i = 0; i < jsonFiles.length; i++) {
-    fse.readJson('../' + jsonFiles[i])
-      .then(obj => {
-        // do nothing.
-      })
-      .catch(err => {
-        console.error(err);
-      })
-  }
 });
